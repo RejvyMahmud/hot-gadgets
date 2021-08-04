@@ -8,16 +8,16 @@
 .gray-text{
         color: gray;
     }
-.card img{
-        width: 300px;
+.laptop img{
+        width: 100%;
+        height: 100%;
         padding: 50px;
-        
-        padding-left: 75px;
+
 }
 .card{
         border-radius: 10px;
         border: none;
-        box-shadow: 5px 8px 15px gray;
+        box-shadow: 5px 8px 15px rgb(194, 192, 192);
 }
 .card-footer{
 
@@ -41,4 +41,64 @@
 }
 section{
         margin-bottom: 100px;
+}
+.phone img{
+        width: 100%;
+        height: 100%;
+         padding: 25%;
+
+}
+
+.cat-center{
+        text-align: center;
+        margin-bottom: 100px;
+}
+.cat-center::after{
+        content:'' ;
+        width: 80px;
+        height: 7px;
+        border-radius: 5px;
+        background-image: linear-gradient(to right,rgb(235, 60, 60) ,orange);
+        display: block;
+        margin-left: auto;
+        margin-right:auto ;
+        transform: translateY(10px);
+
+}
+.cat img{
+        width: 100%;
+        padding: 10px;
+       
+}
+.cat1{
+        box-shadow: 3px 3px 23px rgb(194, 192, 192);
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        height: 200px;
+        width: 200px;
+        padding: 15% ;
+        margin-left: 10px;
+  
+}
+.cat1 img{
+        width: 100%;
+        padding: 10px;
+}
+.cat2{
+        height: 200px;
+        width: 200px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        box-shadow: 3px 3px 23px rgb(194, 192, 192);
+        margin-bottom: 20px;
+        padding: 10%;
+}
+.cat2 img{
+        width: 100%;
+        padding:20px;
+}
+.carousel{
+        background-image: linear-gradient(to right, rgb(149, 221, 247) , rgb(221, 243, 231));
+        border-radius: 10px;
+        padding: 20px;
 }
