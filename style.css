@@ -1,0 +1,44 @@
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+.navbar-toggler{
+    outline: none;
+}
+.gray-text{
+        color: gray;
+    }
+.card img{
+        width: 300px;
+        padding: 50px;
+        
+        padding-left: 75px;
+}
+.card{
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 8px 15px gray;
+}
+.card-footer{
+
+        border-top: none;
+        background-color: white;
+        
+}
+.card-text{
+        margin-bottom:0px;
+}
+.card-body{
+        margin-left: auto;
+        margin-right: auto;
+}
+.r-link{
+        text-decoration: none;
+        color: orange;
+}
+.r-link:hover{
+        color: red;
+}
+section{
+        margin-bottom: 100px;
+}
